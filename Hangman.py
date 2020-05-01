@@ -28,8 +28,7 @@ while play == "y":
             else:
                 k += 1
         print(input_x)
-        print("Guess {} was {}" .format(z + 1, input_x[z]))
-        z += 1
+        print("Guess {} was {}" .format(n + 1, input_x[n]))
         n + 1
     play = input("Play agian (y/n)")
     
