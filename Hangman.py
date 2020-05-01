@@ -24,12 +24,15 @@ while play == "y":
             elif k == len(list_1) - 1:
                 print("Guess Agian")
                 k += 1
+                j += 1
             else:
                 k += 1
         print(input_x)
-        print("Guess {} was {}" .format(j + 1, input_x[j]))
-        j += 1
+        print("Guess {} was {}" .format(z + 1, input_x[z]))
+        z += 1
         n + 1
     play = input("Play agian (y/n)")
+    
+    
 
 
